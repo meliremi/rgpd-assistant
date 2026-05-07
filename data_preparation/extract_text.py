@@ -1,7 +1,7 @@
 import pdfplumber
 import os
 
-def run_extraction(pdf_path=r"C:\Users\HP\Desktop\projet RGPD selma\rgpd-assistant\data_preparation\RGPD.pdf"):
+def run_extraction(pdf_path=r"data_preparation\RGPD.pdf"):
     """
     Extrait le texte du fichier PDF spécifié.
     Utilise pdfplumber pour lire le contenu du PDF.
